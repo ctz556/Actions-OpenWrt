@@ -15,3 +15,6 @@
 
 # Add a feed source
 #sed -i '$a src-git lienol https://github.com/Lienol/openwrt-package' feeds.conf.default
+
+# Add helloworld
+git clone --depth=1 -b master https://github.com/fw876/helloworld package/helloworld
